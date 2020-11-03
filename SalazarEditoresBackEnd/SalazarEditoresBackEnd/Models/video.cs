@@ -5,7 +5,7 @@ using System.Web;
 
 namespace SalazarEditoresBackEnd.Models
 {
-    public class videos
+    public class video
     {
     }
 }

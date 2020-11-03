@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -10,7 +11,7 @@ namespace SalazarEditoresBackEnd.Models
         public MySqlConnection coneccion;
         //private string stringConeccion = "Server=servidorbasedatosmedicioagua.eastus.cloudapp.azure.com; Port=3306; Database=medidortesis; Uid=sebastian@servidortesissebas; Pwd=Admin!1234; SslMode=Preferred;";
         private string stringConeccion = "Server=localhost; Port=3306; Database=bdsalazareditores; Uid=root; Pwd= ;";
-        public ConexionBD()
+        public ConexionDB()
         {
             inicializar();
         }
